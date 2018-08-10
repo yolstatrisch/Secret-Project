@@ -1,0 +1,3 @@
+1 byte: FF -> F,f (prob diff or by sg)
+3 bytes: Spx + + 23750 + 826 bytes
+128 -> 7
