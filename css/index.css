@@ -1,0 +1,26 @@
+body{
+	overflow: hidden;
+}
+
+#container{
+	animation: why2 10s linear infinite;
+    position: fixed;
+    min-width: 128px;
+    min-height: 128px;
+    top: 0px;
+    left: 0px;
+}
+
+#ipsum{
+	animation: why2 10s linear infinite;
+	z-index: -1;
+
+    text-align: justify;
+    text-justify: inter-word;
+	color: red;
+	font-family: "Comic Sans MS";
+}
+
+@keyframes why2{
+	50% {filter:hue-rotate(300deg);}
+}
