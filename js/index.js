@@ -1,4 +1,9 @@
 $(function(){
+    $('body').keyup(function(e){
+        if(e.keyCode == 32){
+           $('#container').css('background', 'url(vivismirk.png)');
+        }
+    });
     $('#container').css('background', 'url(vividisgust.png)');
 
     var w = window.innerWidth - 128;
