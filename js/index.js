@@ -61,5 +61,8 @@ $(function(){
         text = text.replace(re_md, to);
 
         $('#ipsum').html(text);
+
+        w = window.innerWidth - 128;
+        h = window.innerHeight - 128;
     }
 });
